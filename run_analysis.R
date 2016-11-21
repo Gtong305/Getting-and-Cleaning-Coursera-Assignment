@@ -1,7 +1,6 @@
 library(tidyr)
 library(dplyr)
 
-setwd("C:/Users/gtong/Gary/Coursera/R/Getting and Cleaning Data/data/UCI HAR Dataset/")
 test_x <- read.table('./test/X_test.txt') # 561-feature vector with time and frequency domain variables
 train_x <- read.table('./train/X_train.txt') # 561-feature vector with time and frequency domain variables
 test_y <- read.table('./test/y_test.txt') # activity label
