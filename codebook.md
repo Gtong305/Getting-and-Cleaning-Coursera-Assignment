@@ -1,6 +1,7 @@
 # Codebook for variables in meanTidyDataset
 Below are the list of variables in the tidy dataset:
 * activity_description
+* subject_id
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
@@ -21,7 +22,8 @@ Below are the list of variables in the tidy dataset:
 
 The variables are categorized into two signals; the time domain signals (prefix ‘t’) which was captured at a constant rate of 50 Hz and the Fast Fourier Transform (prefix ‘f’). These signals were used to estimate variables of the feature vector for each pattern of the 3-axial signals in the X, Y, and Z direction (denoted as ‘-X’, ‘ -Y’, or ‘-Z’). Below, I define the acynoms 
 
-"activity_description" – indicates the activity name for the measurement.  
+"activity_description" – indicates the activity name for the measurement.
+"subject_id" - unique identifier of the volunteer performing the activites
 
 Below, I define the acronyms:
 * std – Standard deviation
